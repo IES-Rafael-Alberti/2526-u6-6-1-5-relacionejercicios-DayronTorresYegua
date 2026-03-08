@@ -74,3 +74,4 @@ class InformeAppServiceV0 {
 fun main() {
     InformeAppServiceV0().ejecutar()
 }
+
