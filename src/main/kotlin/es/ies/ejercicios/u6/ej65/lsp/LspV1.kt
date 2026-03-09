@@ -44,7 +44,7 @@ fun main() {
     val repo = RepositorioPersonasV1()
     cliente(repo, repo)
 
-    logger.info("\n[LSP:v1] Repositorio solo lectura (rompe sustitución)")
+    logger.info("[LSP:v1] Repositorio solo lectura (sustitución válida, solo puede leer)")
     val repoSoloLectura = RepositorioSoloLecturaV1()
 
     logger.info("[LSP:v1] Buscar Ana en solo lectura -> ${repoSoloLectura.buscar("Ana")?.resumen()}")
