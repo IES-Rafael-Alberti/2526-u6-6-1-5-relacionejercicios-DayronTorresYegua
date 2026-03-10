@@ -1,4 +1,6 @@
+/*
 package es.ies.ejercicios.u6.ej65.srp
+
 
 import es.ies.ejercicios.u6.ej64.Alumno
 import es.ies.ejercicios.u6.ej64.InformeMarkdown
@@ -42,4 +44,4 @@ class InformeAppServiceV0 {
 fun main() {
     InformeAppServiceV0().ejecutar()
 }
-
+*/

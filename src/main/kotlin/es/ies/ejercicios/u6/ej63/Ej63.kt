@@ -12,4 +12,14 @@ fun main() {
     println("- Completa la jerarquía y los constructores en `es.ies.ejercicios.u6.ej63`")
     println("- Añade logs en init/constructores para ver el orden de inicialización")
     println("- Actualiza este main para instanciar usando distintos constructores")
+
+    val r1 = Rectangulo("rojo", "rectangulo", 5, 3)
+    val r2 = Rectangulo(5, 3)
+    val r3 = Rectangulo(5)
+
+    val c1 = Circulo("azul", "circ", 4)
+    val c2 = Circulo(4)
+
+    val t1 = Triangulo(6, 4)
+    val t2 = Triangulo(5)
 }
